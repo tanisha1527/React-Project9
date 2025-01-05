@@ -7,10 +7,10 @@ const MealCards = ({detail}) => {
     <div className='meals'>
          {!detail ? "" : detail.map((currentItem)=>{
             return (
-              <div>
-                  <img src=''/>
-                  <p></p>
-                  <button></button>
+              <div className='mealItem'>
+                  <img src={currentItem.strMealThumb}/>
+                  <p>{currentItem.strMeal}</p>
+                  <button>Recipe</button>
               </div>
             )
          })
