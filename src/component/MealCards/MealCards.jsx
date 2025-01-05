@@ -1,5 +1,6 @@
 import React from 'react'
 import './MealCards.css'
+import { NavLink } from 'react-router-dom'
 
 const MealCards = ({detail}) => {
   
@@ -10,7 +11,7 @@ const MealCards = ({detail}) => {
               <div className='mealItem'>
                   <img src={currentItem.strMealThumb}/>
                   <p>{currentItem.strMeal}</p>
-                  <button>Recipe</button>
+                  <NavLink to={`/${currentItem.idMeal}`}><button>Recipe</button></NavLink>
               </div>
             )
          })

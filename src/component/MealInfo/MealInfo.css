@@ -1,0 +1,29 @@
+.meal-info{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    padding: 32px;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 181, 42);
+}
+
+.meal-info img{
+    width: 400px;
+    height: 400px;
+    border-radius: 11px;
+}
+
+.meal-info button{
+     font-size: 19px;
+     padding: 9px;
+     border: none;
+     border-radius: 6px;
+     background-color: orangered;
+     color: #fff;
+}
+
+.meal-info .info{
+    margin-top: -112px;
+}
