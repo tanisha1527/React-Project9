@@ -24,3 +24,22 @@
      font-size: 20px;
      cursor: pointer;
 }
+
+.search-bar button:hover{
+     background-color: rgb(253, 171, 18);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.msg{
+     text-align: center;
+     margin-top: 20px;
+     font-weight: 200;
+}
+
